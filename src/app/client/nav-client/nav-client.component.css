@@ -1,0 +1,19 @@
+ .navbar-brand{
+	color: #fff;
+	font-size:1.8em;
+	font-weight: 700;
+	margin-left: 10%;
+
+}
+ .nav{
+	margin-right:10%;
+
+}
+ .nav li a{
+	color:#aaa;
+	font-size: 1.2em;
+}
+.navbar{
+  background-color: black;
+  width: 100%;
+}

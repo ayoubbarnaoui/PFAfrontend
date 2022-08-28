@@ -8,6 +8,9 @@ import { ProduitsCategorieComponent } from './admin/produits-categorie/produits-
 import { ShowCategorieComponent } from './admin/show-categorie/show-categorie.component';
 import { UpdateCategorieComponent } from './admin/update-categorie/update-categorie.component';
 import { UpdateProduitComponent } from './admin/update-produit/update-produit.component';
+import { BoutiqueCategorieComponent } from './client/boutique-categorie/boutique-categorie.component';
+import { BoutiqueComponent } from './client/boutique/boutique.component';
+import { HomeComponent } from './client/home/home.component';
 
 
 
@@ -20,7 +23,10 @@ const routes: Routes = [
   {path : "update/produit/:id", component :UpdateProduitComponent},
   {path : "categorie/update-categorie/:id", component :UpdateCategorieComponent},
   {path : "homeAdmin", component :HomeAdminComponent},
+  {path : "boutique", component :BoutiqueComponent},
+  {path : "boutique/:titre", component :BoutiqueCategorieComponent},
 
+  {path : "home", component :HomeComponent},
 ];
 
 @NgModule({

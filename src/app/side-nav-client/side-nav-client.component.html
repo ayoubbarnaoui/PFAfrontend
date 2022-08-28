@@ -1,0 +1,10 @@
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+<div class="sidenav">
+
+  <div *ngFor="let categorie of listCategorie">
+    <a class="b" (click)="produitsCategorie(categorie)" >
+    <span>{{categorie.titre}}</span></a>
+  </div>
+
+</div>
