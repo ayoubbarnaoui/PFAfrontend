@@ -1,6 +1,9 @@
 main{
   margin-left: 20%;
   background-color: azure;
+  /* height: 90%; */
+}
 
-  /* height: 100vh; */
+#suppBtn{
+  margin-left: 2%;
 }

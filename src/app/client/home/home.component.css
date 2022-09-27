@@ -4,27 +4,30 @@ body{
 	background:#fff;
 	font-family: 'Raleway',sans-serif;
 	color: #fff;
+  /* background-position: top;
+	background-size:cover;
+	background-attachment: fixed; */
 }
 .banner{
-	height: 100vh;
+  /* height: 100%; */
+  min-height: 100vh;
+  height: -webkit-fill-available;
 	width: 100%;
 	background:url('../../../assets/image/homeimage.jpg');
-  /* ,url('https://thumbs.dreamstime.com/b/coffee-cup-mobile-phone-eye-glasses-laptop-wooden-table-nature-view-to-ricefield-background-relax-concept-203425737.jpg'); */
-	/* background-color: black; */
   background-position: top;
 	background-size:cover;
-	/*background-attachment: fixed;*/
-	background-repeat: no-repeat;
+	background-attachment: fixed;
+
 }
 .banner .navbar{
 	margin-top:0;
 }
-.banner .navbar-brand{
+/* .banner .navbar-brand{
 	color: #fff;
 	font-size:1.8em;
 	font-weight: 700;
 	margin-left: 10%;
-}
+} */
 .banner .nav{
 	margin-right:10%;
 }

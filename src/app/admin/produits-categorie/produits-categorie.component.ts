@@ -41,7 +41,7 @@ export class ProduitsCategorieComponent implements OnInit {
     this.produitServ.getProduitCategorie(id).subscribe(
       result=>{
         this.produitList=result;
-        console.log(result);
+        // console.log(result);
       }
     )
   }

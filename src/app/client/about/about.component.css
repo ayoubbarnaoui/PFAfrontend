@@ -1,0 +1,61 @@
+body{
+	margin:0;
+	padding:0;
+	background:#fff;
+	font-family: 'Raleway',sans-serif;
+	/* color: #fff; */
+
+
+}
+.banner{
+  min-height: 100vh;
+  height: -webkit-fill-available;
+	width: 100%;
+	/* background:url('../../../assets/image/boutiqueimage.jpg'); */
+  background-position: top;
+	background-size:cover;
+	background-attachment: fixed;
+	/* background-repeat: no-repeat; */
+
+
+
+}
+
+#imgAbout{
+  margin-left: 10%;
+  /* margin-right: 5%; */
+  width: 80%;
+  /* height: 40%; */
+  height: 500px;
+}
+h1{
+  color: rgb(138, 114, 85);
+  margin-left: 20%;
+}
+#horaire{
+  /* border: 1px solid black; */
+  width: 60%;
+  margin-left: 20%;
+}
+#horaire h2{
+  margin-left: 42%;
+  color: rgb(138, 114, 85);
+
+}
+p{
+  margin-left: 35%;
+}
+#contact{
+  width: 60%;
+  margin-left: 20%;
+  /* border: 1px solid black; */
+  padding-left: 20%;
+}
+#contact h2{
+  margin-left: 10%;
+  color: rgb(138, 114, 85);
+}
+#imgLocal{
+  width: 30px;
+  height: 30px;
+}

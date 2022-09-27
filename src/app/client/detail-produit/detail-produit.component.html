@@ -1,0 +1,21 @@
+<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+	<link rel="stylesheet" type="text/css" href="detail-produit.component.css" />
+<body>
+  <div class="container-fluid banner">
+
+    <app-nav-client></app-nav-client>
+    <div id="cont1">
+      <h1>{{produit.nom}}</h1>
+    <img [src]="imageDirectPath+produit.image"  height="200" alt="">
+
+    <!-- <div id="cont2"> -->
+
+    <!-- </div> --></div>
+    <h2>detail</h2>
+    <p>{{produit.description}}</p>
+    <h2>prix : {{produit.prix}} DH
+      <button id="btnAcheter" class="btn btn-success" (click)="acheter(produit)">
+        Acheter</button>
+    </h2>
+  </div>
+</body>

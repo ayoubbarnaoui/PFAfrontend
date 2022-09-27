@@ -1,5 +1,6 @@
 .sidenav {
-  width: 500px;
+  /* width: 500px; */
+  width: 40%;
   z-index: 1;
   top: 0;
   left: 0;
@@ -9,7 +10,8 @@
   color: #f1f1f1;
   border-radius: 15px;
   text-align:center;
-  margin-left: 420px;
+  /* margin-left: 420px; */
+  margin-left: 30%;
 }
 
 .sidenav .b {

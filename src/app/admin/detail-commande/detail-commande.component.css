@@ -1,0 +1,35 @@
+main{
+  margin-left: 20%;
+  background-color: azure;
+  /* height: 90%; */
+}
+#infoClient{
+ border: 1px solid black;
+ border-radius: 14px;
+ margin-left: 15% ;
+ margin-right: 15% ;
+ padding-left: 15%;
+ /* margin-top: 20px; */
+}
+#btnSupr{
+  color: black;
+  font-size: 17px;
+  font-style: italic;
+  float:right;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  /* margin-bottom: 10px; */
+  /* margin-right: 4%; */
+  width: 15%;
+  }
+
+#infoCmd{
+  border: 1px solid black;
+  border-radius: 14px;
+  margin-left: 15% ;
+  margin-right: 15% ;
+  padding-left: 15%;
+}
+/* #infoClient #infoCmd{
+  display: inline;
+} */

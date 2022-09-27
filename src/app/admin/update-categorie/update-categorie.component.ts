@@ -17,6 +17,7 @@ export class UpdateCategorieComponent implements OnInit {
   constructor(private rout:Router ,private cateServ:CategorieService) {
     const navigation:any = this.rout.getCurrentNavigation();//bach nakhdo data mn user comp
     // this.id=navigation.extras.id;
+    
     this.categorie = navigation.extras;
   }
 

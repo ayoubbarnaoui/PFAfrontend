@@ -20,8 +20,13 @@ import { HomeAdminComponent } from './admin/home-admin/home-admin.component';
 import { HomeComponent } from './client/home/home.component';
 import { NavClientComponent } from './client/nav-client/nav-client.component';
 import { BoutiqueComponent } from './client/boutique/boutique.component';
-import { SideNavClientComponent } from './side-nav-client/side-nav-client.component';
+import { SideNavClientComponent } from './client/side-nav-client/side-nav-client.component';
 import { BoutiqueCategorieComponent } from './client/boutique-categorie/boutique-categorie.component';
+import { ShopingCartComponent } from './client/shoping-cart/shoping-cart.component';
+import { AboutComponent } from './client/about/about.component';
+import { CommandeComponent } from './admin/commande/commande.component';
+import { DetailCommandeComponent } from './admin/detail-commande/detail-commande.component';
+import { DetailProduitComponent } from './client/detail-produit/detail-produit.component';
 
 @NgModule({
   declarations: [
@@ -39,6 +44,11 @@ import { BoutiqueCategorieComponent } from './client/boutique-categorie/boutique
     BoutiqueComponent,
     SideNavClientComponent,
     BoutiqueCategorieComponent,
+    ShopingCartComponent,
+    AboutComponent,
+    CommandeComponent,
+    DetailCommandeComponent,
+    DetailProduitComponent,
   ],
   imports: [
     BrowserModule,

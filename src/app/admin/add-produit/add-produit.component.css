@@ -1,6 +1,5 @@
 main{
-  margin-left: 210px;
-
+  margin-left: 20%;
   background-color: azure;
   /* height: 90%; */
 }
@@ -19,6 +18,16 @@ main{
   background-color: rgb(86, 118, 134);
   color:white;
 
+}
+.card textarea{
+  border-radius: 10px;
+  background-color: rgb(86, 118, 134);
+  color:white;
+}
+#exampleSelect{
+  border-radius: 10px;
+  background-color: rgb(86, 118, 134);
+  color:white;
 }
 .card input::placeholder{
   color: red;

@@ -1,0 +1,65 @@
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+<app-nav-admin></app-nav-admin>
+
+<link rel="stylesheet" href="detail-commande.component.css">
+<main class="content-wrapper">
+  <div>
+     <button id="btnSupr" class="btn btn-danger" (click)=" suppCommande(commande)">
+    supprimer</button>
+  </div>
+
+  <div id="infoClient">
+    <h2>information sur le client</h2>
+    <table>
+      <tr>
+          <b>Nom:</b>
+          {{client.nom}}
+      </tr>
+      <tr>
+        <b>Numero de telephone:</b>
+        {{client.num_telephone}}
+    </tr>
+    <tr>
+      <b>Adresse:</b>
+      {{client.adresse}}
+    </tr>
+    <tr>
+      <b>Email:</b>
+      {{client.email}}
+    </tr>
+
+    </table>
+
+  </div>
+  <div id="infoCmd">
+      <b>prix total de la commande : {{commande.prix_total}} DH</b> <br>
+      <b>date de la commande : </b> {{commande.date}}
+  </div>
+  <table class="table table-striped"  >
+    <thead>
+      <tr>
+        <th > nom de produit</th>
+        <th > description</th>
+        <th > photo</th>
+        <th > prix</th>
+        <th > quantite</th>
+        <th > prix total</th>
+      </tr>
+    </thead>
+    <tbody>
+
+      <tr *ngFor=" let elm  of listPLigne  " >
+        <td width="150px"> {{elm.produit_nom}}</td>
+        <td width="400px"> {{elm.produit_description}}</td>
+        <td width="200px" ><img [src]="imageDirectPath+elm.produit_image" height="100" alt=""> </td>
+        <td width="100px"> {{elm.produit_prix}} DH</td>
+        <td width="50px"> {{elm.quantite}}</td>
+        <td width="150px"> {{elm.prix_total}} DH</td>
+      </tr>
+    </tbody>
+
+  </table>
+
+
+</main>

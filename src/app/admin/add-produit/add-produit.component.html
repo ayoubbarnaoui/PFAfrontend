@@ -15,9 +15,10 @@
        </div>
        <div class="card-body">
         <h3>description</h3>
-        <input type="text" class="form-control" name="description" placeholder="description"
+        <!-- <input type="text" class="form-control" name="description" placeholder="description"
         [(ngModel)]="produit.description"
-        >
+        > -->
+        <textarea id="txtid"  rows="4" cols="98"  name="description" [(ngModel)]="produit.description"></textarea>
         <!-- <textarea rows = "5" formControlName="desc" class="form-control" name="description" placeholder="description"
         [(ngModel)]="produit.description"
         ></textarea> -->
@@ -26,12 +27,11 @@
         [(ngModel)]="produit.prix"
         >
 
-        <h3></h3>
+        <h3>image de produit</h3>
         <img *ngIf="imgUrl!=null" [src]="imgUrl" width="500" height="200" />
         <input type="file" class="form-control" (change)="imageUpload($event)" >
         <h3>categorie</h3>
         <div class="form-group" name="categorie">
-          <!-- <label for="exampleSelect">Example select</label> -->
           <select class="form-control" id="exampleSelect" *ngIf="cId!=null">
             <option value="{{cId}}">{{cTitre}}</option>
           </select>

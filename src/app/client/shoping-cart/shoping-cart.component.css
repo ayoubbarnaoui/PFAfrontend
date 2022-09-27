@@ -1,0 +1,81 @@
+.navbar-brand{
+	color: #fff;
+	font-size:1.8em;
+	font-weight: 700;
+	margin-left: 10%;
+
+}
+ /* .nav{
+	margin-right:10%;
+
+} */
+ .nav li a{
+	color:#aaa;
+	font-size: 1.2em;
+}
+.navbar{
+  background-color: black;
+  width: 100%;
+}
+.btnl{
+  width: 20px;
+  border: 1 solid;
+  padding-left: 3px;
+  height: 40px;
+
+}
+#lesBtn{
+  display: flex;
+}
+#lesBtn #nmbr{
+  width: 60px;
+  padding-left: 5px;
+}
+
+#btnSupr{
+  color: red;
+  font-size: 17px;
+  font-style: italic;
+  float:right;
+  margin-bottom: 10px;
+  }
+
+
+#container{
+  margin-top: 20px;
+  padding-top: 20px;
+  border: 1px solid gray;
+  font-style: italic;
+  margin: 30px;
+}
+
+#lenghPrd,#btnSupr{
+  display: inline;
+}
+
+#containerClient{
+
+  /* width: 800px; */
+  width: 70%;
+  border: 1px solid grey;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 15px;
+  background-color: azure;
+  font-family: italic;
+  /* margin-left: 270px; */
+  margin-left: 15%;
+}
+
+h2,input{
+  display: inline;
+}
+input{
+  margin-bottom: 40px;
+}
+
+#containerClient #btnValider{
+  margin-left: 35%;
+  width: 30%;
+}
+

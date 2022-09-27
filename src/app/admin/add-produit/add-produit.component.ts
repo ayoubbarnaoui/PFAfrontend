@@ -11,7 +11,7 @@ import { ProduitService } from 'src/services/produit.service';
 })
 export class AddProduitComponent implements OnInit {
   files:any;
-  imgUrl:any="https://static.remove.bg/remove-bg-web/36b50c4385f75bb65509f63b1e81f99fe2b334fc/assets/start_remove-c851bdf8d3127a24e2d137a55b1b427378cd17385b01aec6e59d5d4b5f39d2ec.png";
+  imgUrl:any="https://batiadvisor.fr/wp-content/uploads/2021/01/presentation-nouveau-produit-scaled.jpg";
   ListCategorie:any=[];
   cId:any;
   cTitre:any;

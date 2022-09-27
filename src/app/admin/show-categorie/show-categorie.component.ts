@@ -51,19 +51,16 @@ export class ShowCategorieComponent implements OnInit {
   }
   public addCategorie(){
     // console.log(this.categorie);
-
       this.cateServ.insertcategorie(this.categorie).subscribe(
         res => {
           // console.log("test wach khadam");
-          console.log(res);
+          // console.log(res);
           this.getCategorie();
           this.show=false;
           this.categorie.titre="";
           this.categorie.description="";
         }
       );
-
-
   }
   updateCategorie(Returncategorie:any,id:any){
     this.rout.navigate(["categorie/update-categorie/",id],Returncategorie);

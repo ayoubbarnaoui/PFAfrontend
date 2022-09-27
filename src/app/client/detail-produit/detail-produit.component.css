@@ -1,0 +1,42 @@
+body{
+	margin:0;
+	padding:0;
+	background:#fff;
+	font-family: 'Raleway',sans-serif;
+	/* color: #fff; */
+
+
+}
+.banner{
+  min-height: 100vh;
+  height: -webkit-fill-available;
+	width: 100%;
+	/* background:url('../../../assets/image/boutiqueimage.jpg'); */
+  background-position: top;
+	background-size:cover;
+	background-attachment: fixed;
+
+}
+/* h1{
+  margin-left: 40%;
+} */
+img{
+  margin-left: 30%;
+  width: 40%;
+}
+
+#cont1{
+  /* border: 1px solid black; */
+  margin-right: 40%;
+}
+#btnAcheter{
+
+  font-size: 17px;
+  font-style: italic;
+  float:right;
+  margin-bottom: 10px;
+  }
+/* #cont1, #btnAcheter
+{
+  display: inline;
+} */
